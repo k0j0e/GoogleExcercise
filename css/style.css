@@ -11,3 +11,46 @@ h4{margin: 0;}
 p{
   margin: 0;
 }
+
+nav{
+  border-bottom: 1px solid darkgray;
+  
+}
+
+content{
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchBar{
+  display: inline;;
+  justify-content:center;
+  margin: 0;
+ 
+}
+.btn{ 
+  margin: 25px 15px 0 0;
+  display: inline;
+  justify-content: center;
+}
+.form{
+  margin: 0;
+  display: flex;;
+  justify-content:center;
+}
+.newbtn{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu{
+  margin: 25px;
+  padding: 0;
+  
+}
+li{
+  display: inline;
+  margin: 0;
+  margin-right: 15px;
+}
