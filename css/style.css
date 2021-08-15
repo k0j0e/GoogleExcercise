@@ -1,7 +1,20 @@
 body{
   margin:0;
   padding:0;
-  background: whitesmoke;
+  background: white;
+  font-family: arial,sans-serif;
+  
+}
+a{
+  text-decoration: none;
+  color: #70757a;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+a:visited{
+  color: #70757a;
 }
 
 h1{margin: 0;}
@@ -13,7 +26,6 @@ p{
 }
 
 nav{
-  border-bottom: 1px solid darkgray;
   
 }
 
@@ -30,10 +42,26 @@ content{
  
 }
 .btn{ 
-  margin: 25px 15px 0 0;
-  display: inline;
-  justify-content: center;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 35px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
+.btn:hover{
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
 .form{
   margin: 0;
   display: flex;;
@@ -53,4 +81,23 @@ li{
   display: inline;
   margin: 0;
   margin-right: 15px;
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-top: 1px solid lightgray;
+  
+}
+
+.footer-menu1{
+  
+  float:left;
+}
+
+.footer-menu2{
+ margin-right : 25px;
+ float: right;
 }
