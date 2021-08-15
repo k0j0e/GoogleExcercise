@@ -39,8 +39,10 @@ content{
   display: inline;;
   justify-content:center;
   margin: 0;
- 
+  
 }
+
+
 .btn{ 
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
@@ -62,6 +64,16 @@ content{
   border-radius: 4px;
 }
 
+#search{
+  height: 40px;
+  border-radius: 15px; 
+  border: 1px solid lightgray;
+  font-size: 15px;
+  
+}
+#search:hover{
+  box-shadow: 2px 2px lightgray;
+}
 .form{
   margin: 0;
   display: flex;;
