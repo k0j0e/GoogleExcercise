@@ -7,7 +7,6 @@ body{
 }
 a{
   text-decoration: none;
-  color: #70757a;
 }
 
 a:hover{
@@ -24,8 +23,35 @@ h4{margin: 0;}
 p{
   margin: 0;
 }
+ul{
+  padding: 0;
+  margin: 20px 20px;
+}
+#userlogo{
+  
+}
+.headerlinks{
+  color:black;
+}
 
-nav{
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.headerLeft{
+  float: left;
+}
+.headerRight{
+  float:right;
+  
+}
+
+.nav-menu{
+  margin: 0;
+}
+#userlogo{
+  border-radius: 50%;
   
 }
 
@@ -36,13 +62,14 @@ content{
 }
 
 .searchBar{
-  display: inline;;
+  display: inline;
   justify-content:center;
   margin: 0;
-  
 }
 
-
+.nav-menu{
+  
+}
 .btn{ 
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
@@ -87,12 +114,18 @@ content{
 .nav-menu{
   margin: 25px;
   padding: 0;
-  
 }
+
 li{
   display: inline;
   margin: 0;
-  margin-right: 15px;
+  margin-right: 25px;
+}
+
+.offer{
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
 }
 
 footer{
@@ -107,9 +140,13 @@ footer{
 .footer-menu1{
   
   float:left;
+  
 }
 
 .footer-menu2{
- margin-right : 25px;
- float: right;
+  margin-right : 25px;
+  float: right;
+}
+.footerlinks{
+  color: gray;
 }
